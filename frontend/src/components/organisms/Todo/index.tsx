@@ -71,7 +71,7 @@ const handleEdit=(todo:TodoProps)=>{
    setEditedData(todo);
    handleOpen();
    console.log(editedData);
-  //  window.location.reload();
+   window.location.reload();
 }
 const handleDelete=(id:number)=>{
      DELETE_TODO(id).then((data)=>{
