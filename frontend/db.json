@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "name": "sumit radda",
+      "description": "make practise bowling",
+      "date": "Sun Dec 03 2023 23:15:08 GMT+0530 (India Standard Time)",
+      "id": 4
+    },
+    {
+      "name": "sachin Waghmare",
+      "description": "Learning React",
+      "date": "Mon Dec 04 2023 08:36:39 GMT+0530 (India Standard Time)",
+      "id": 5
+    },
+    {
+      "name": "Somnath More",
+      "description": "bowler  and batsman",
+      "date": "Mon Dec 04 2023 08:36:58 GMT+0530 (India Standard Time)",
+      "id": 6
+    }
+  ]
+}
