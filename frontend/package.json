@@ -1,10 +1,12 @@
 {
+  "homepage": "https://smore83.github.io/TodolistApplication",
   "name": "ecommercesell",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.19",
     "@mui/material": "^5.14.18",
     "@mui/x-data-grid": "^6.18.2",
     "@testing-library/jest-dom": "^5.17.0",
@@ -26,7 +28,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start-server": "json-server --watch db.json --port 8080"
+    "start-server": "json-server --watch db.json --port 8080",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -47,6 +50,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.0",
     "json-server": "^0.17.4"
   }
 }
